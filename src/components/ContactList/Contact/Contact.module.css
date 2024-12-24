@@ -1,0 +1,33 @@
+.contactListItem {
+  display: flex;
+  min-width: 265px;
+  width: calc((100% - 30px) / 4);
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px 10px;
+
+  & .contactDetails {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    & p {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+  }
+
+  & p {
+    margin: 0;
+  }
+
+  & button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    height: max-content;
+    align-self: center;
+  }
+}

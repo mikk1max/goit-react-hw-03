@@ -1,0 +1,29 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+
+  & div label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & input {
+      height: 30px;
+    }
+  }
+
+  & button {
+    max-width: max-content;
+    align-self: center;
+    padding: 10px;
+  }
+
+  & .errorMessage {
+    color: red;
+    font-size: 14px;
+  }
+}

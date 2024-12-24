@@ -1,0 +1,14 @@
+.searchField {
+  display: flex;
+  flex-direction: column;
+
+  & span {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  & input {
+    height: 30px;
+    font-size: 18px;
+  }
+}
